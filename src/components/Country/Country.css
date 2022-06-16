@@ -1,0 +1,18 @@
+.country {
+    background-color:#2b3945;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+.country img {
+    border-radius: 3px;
+    width: 250px;
+}
+
+@media only screen and (max-width: 576px) {
+    .country img {
+        width: 100%;
+    }
+}
